@@ -43,6 +43,13 @@
 	.phone {
 		text-decoration: none;
 	}
+	.covid {
+		text-align: center;
+		max-width: 80%;
+	}
+	.covidmask{
+		max-width:60%;
+	}
 	#donate img{
 		display: block;
 		margin-left: auto;
