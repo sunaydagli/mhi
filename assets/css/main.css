@@ -43,6 +43,12 @@
 	.phone {
 		text-decoration: none;
 	}
+	.link {
+		text-decoration: none;
+	}
+	.link:hover {
+		text-decoration: none;
+	}
 	.covid {
 		text-align: center;
 		max-width: 80%;
