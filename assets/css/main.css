@@ -3260,3 +3260,21 @@ section iframe {
 				}
 
 		}
+.article {
+	margin-bottom: 20px;;
+}
+
+.flexed {
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+	flex-wrap: wrap;
+	flex-direction: row; 
+}
+
+.btn {
+	background-color: #13ABC4;
+}
+.btn:hover {
+	background-color: #13ABC4;
+}
