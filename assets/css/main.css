@@ -3278,3 +3278,7 @@ section iframe {
 .btn:hover {
 	background-color: #13ABC4;
 }
+
+.btn:active{
+	background-color: #13ABC4;
+}
