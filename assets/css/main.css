@@ -3282,6 +3282,22 @@ a {
   }
 
 .logo {
-	max-width: 200px;
-	max-height: 200px;
+	width: 200px;
+	height: 130px;
+}
+
+.flexed {
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+	flex-wrap: wrap;
+	flex-direction: row; 
+}
+
+#partners {
+	margin-top: 20px;
+}
+
+.partner {
+	margin: 10px 0px;
 }
