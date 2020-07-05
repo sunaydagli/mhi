@@ -3301,3 +3301,7 @@ a {
 .partner {
 	margin: 10px 0px;
 }
+
+.no-border {
+	border: none;
+}
