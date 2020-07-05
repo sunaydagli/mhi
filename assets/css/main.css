@@ -3274,3 +3274,14 @@ a {
 	justify-content: center;
 	text-align: center;
 }
+
+.carousel-inner > .carousel-item > .card {
+	margin: 20px auto;
+	line-height: 1.3;
+	text-align: center;
+  }
+
+.logo {
+	max-width: 200px;
+	max-height: 200px;
+}
