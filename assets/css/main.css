@@ -3264,3 +3264,13 @@ section iframe {
 a {
 	text-decoration: none;
 }
+
+.smaller {
+	height: 100%;
+	max-width: 50%;
+}
+
+.carousel-inner {
+	justify-content: center;
+	text-align: center;
+}
