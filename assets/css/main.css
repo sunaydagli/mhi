@@ -3286,3 +3286,39 @@ a {
 .btn:active{
 	background-color: #13ABC4;
 }
+
+.small {
+	height: 100px;
+	width: 100px;
+}
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+	vertical-align: middle;
+}
+
+.flex img {
+	margin-right: 10px;
+	align-items: center;
+}
+
+
+.right {
+	text-align: right;
+}
+
+.icons li{
+    display:inline;
+}  
+
+
+.fb-share-button{
+    position:relative;
+    top:-11px;
+}
+
+#linked_in{
+    position:relative;
+    top:-11px;
+}
