@@ -3260,6 +3260,10 @@ section iframe {
 				}
 
 		}
+
+a {
+	text-decoration: none;
+}
 .article {
 	margin-bottom: 20px;;
 }
