@@ -3013,7 +3013,10 @@
 			transition: .5s ease;
 			backface-visibility: hidden;
 }
-		  
+
+.bumper {
+	margin-top: 20px;
+}
 .middle {
 			transition: .5s ease;
 			opacity: 0;
