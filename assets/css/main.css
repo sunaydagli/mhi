@@ -1652,6 +1652,9 @@
 
 /* Type */
 
+	.navbar{
+		font-family: "Raleway", Arial, Helvetica, sans-serif;
+	}
 	body {
 		background-color: #fff;
 		color: #666;
