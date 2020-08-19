@@ -2445,7 +2445,12 @@
 			.image.main img {
 				width: 100%;
 			}
-
+.centered-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
 /* List */
 
 	ol {
@@ -3365,4 +3370,23 @@ a {
 
 .no-border {
 	border: none;
+}
+
+.author {
+	width: 100px;
+	height: 100px;
+}
+
+.lowercase {
+	text-transform: lowercase;
+}
+
+.in-line-link {
+	font-size: 1em;
+}
+
+#fallout {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
