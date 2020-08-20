@@ -3294,6 +3294,14 @@ a {
 	flex-direction: row; 
 }
 
+.flexed-left {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	list-style-type: none;
+	flex-direction: row;
+}
+
 .btn {
 	background-color: #13ABC4;
 }
