@@ -1649,6 +1649,9 @@
 			-ms-transition: none !important;
 			transition: none !important;
 		}
+.nonecase {
+	text-transform: none;
+}
 
 /* Type */
 
@@ -2450,6 +2453,13 @@
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
+}
+
+.centered-img-large {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
 }
 /* List */
 
