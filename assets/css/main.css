@@ -2464,6 +2464,19 @@
 	margin-right: auto;
 	width: 80%;
 }
+.centered-img-medium {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 65%;
+}
+
+.centered-img-full {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
 /* List */
 
 	ol {
