@@ -3304,10 +3304,9 @@ a {
 
 .flexed {
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	list-style-type: none;
 	flex-wrap: wrap;
-	flex-direction: row; 
 }
 
 .flexed-left {
