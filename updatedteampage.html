@@ -23,21 +23,41 @@
 		  var popup = document.getElementById("brendantext");
 		  popup.style.display = "block";
 		}
+		function hidebrendan() {
+		  var popup = document.getElementById("brendantext");
+		  popup.style.display = "none";
+		}
 		function showadila() {
 		  var popup = document.getElementById("adilatext");
 		  popup.style.display = "block";
+		}
+		function hideadila() {
+		  var popup = document.getElementById("adilatext");
+		  popup.style.display = "none";
 		}
 		function showbrian() {
 		  var popup = document.getElementById("briantext");
 		  popup.style.display = "block";
 		}
+		function hidebrian() {
+		  var popup = document.getElementById("briantext");
+		  popup.style.display = "none";
+		}
 		function showkenton() {
 		  var popup = document.getElementById("kentontext");
 		  popup.style.display = "block";
 		}
+		function hidekenton() {
+		  var popup = document.getElementById("kentontext");
+		  popup.style.display = "none";
+		}
 		function showjae() {
 		  var popup = document.getElementById("jaetext");
 		  popup.style.display = "block";
+		}
+		function hidejae() {
+		  var popup = document.getElementById("jaetext");
+		  popup.style.display = "none";
 		}
 		</script>
 
@@ -78,19 +98,19 @@
 		<h1>Finance</h1>
 		Finance is divided into two subdivisions: External Finance and Internal Finance. External Finance is responsible for creating new avenues and ideas of fundraising, while Internal Finance is responsible for the recording, logging, and reporting of all financial transactions and activity. 
 		</br></br>
-		<div onmouseover="showbrendan()">
+		<div onmouseover="showbrendan()" onmouseleave="hidebrendan()">
 			<a target="_blank" href="https://www.linkedin.com/in/brian-trinh-5b4069167/"><img class="linked" src="images/finance_brendan_tsuda_2.png" width="15%" alt="" /></a>
 		</div>
-		<div onmouseover="showadila()">
+		<div onmouseover="showadila()" onmouseleave="hideadila()">
 			<a target="_blank" href="https://www.linkedin.com/in/brian-trinh-5b4069167/"><img class="linked" src="images/finance_adila_ahmed_2.png" width="15%" alt="" /></a>
 		</div>
-		<div onmouseover="showbrian()">
+		<div onmouseover="showbrian()" onmouseleave="hidebrian()">
 			<a target="_blank" href="https://www.linkedin.com/in/brian-trinh-5b4069167/"><img class="linked" src="images/finance_brian_trinh_2.png" width="15%" alt="" /></a>
 		</div>
-		<div onmouseover="showkenton()">
+		<div onmouseover="showkenton()" onmouseleave="hidekenton()">
 			<a target="_blank" href="https://www.linkedin.com/in/brian-trinh-5b4069167/"><img class="linked" src="images/finance_kenton_trinh_2.png" width="15%" alt="" /></a>
 		</div>
-		<div onmouseover="showjae()">
+		<div onmouseover="showjae()" onmouseleave="hidejae()">
 			<a target="_blank" href="https://www.linkedin.com/in/brian-trinh-5b4069167/"><img class="linked" src="images/finance_jae_jeon_2.png" width="15%" alt="" /></a>
 		</div>
 		<div id="brendantext" style="display: none">
