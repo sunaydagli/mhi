@@ -19,12 +19,12 @@
 	</head>
 	<body class="landing">
 		<script>
-		function showbrendan() {
-		  var popup = document.getElementById("brendantext");
+		function showperson(person) {
+		  var popup = document.getElementById(person);
 		  popup.style.display = "block";
 		}
-		function hidebrendan() {
-		  var popup = document.getElementById("brendantext");
+		function hideperson(person) {
+		  var popup = document.getElementById(person);
 		  popup.style.display = "none";
 		}
 		function showadila() {
@@ -126,10 +126,10 @@
         </header>
         <section id="finance" style="background-color: #C7DFF2; padding: 5%">
 		<h3>Finance</h3>
-		Finance is divided into two subdivisions: External Finance and Internal Finance. External Finance is responsible for creating new avenues and ideas of fundraising, while Internal Finance is responsible for the recording, logging, and reporting of all financial transactions and activity. 
+		testFinance is divided into two subdivisions: External Finance and Internal Finance. External Finance is responsible for creating new avenues and ideas of fundraising, while Internal Finance is responsible for the recording, logging, and reporting of all financial transactions and activity. 
 		</br></br>
 		<img src="images/finance_cover.jpg" width="15%" alt=""/>
-		<a target="_blank" href="https://www.linkedin.com/in/brian-trinh-5b4069167/"><img class="linked" src="images/finance_brendan_tsuda_2.png" width="15%" alt="" onmouseover="showbrendan()" onmouseleave="hidebrendan()" /></a>
+		<a target="_blank" href="https://www.linkedin.com/in/brian-trinh-5b4069167/"><img class="linked" src="images/finance_brendan_tsuda_2.png" width="15%" alt="" onmouseover="showperson("brendantext")" onmouseleave="hideperson("brendantext")" /></a>
 		<a target="_blank" href="https://www.linkedin.com/in/brian-trinh-5b4069167/"><img class="linked" src="images/finance_adila_ahmed_2.png" width="15%" alt="" onmouseover="showadila()" onmouseleave="hideadila()" /></a>
 		<a target="_blank" href="https://www.linkedin.com/in/brian-trinh-5b4069167/"><img class="linked" src="images/finance_brian_trinh_2.png" width="15%" alt="" onmouseover="showbrian()" onmouseleave="hidebrian()" /></a>
 		<a target="_blank" href="https://www.linkedin.com/in/brian-trinh-5b4069167/"><img class="linked" src="images/finance_kenton_trinh_2.png" width="15%" alt="" onmouseover="showkenton()" onmouseleave="hidekenton()"/></a>
