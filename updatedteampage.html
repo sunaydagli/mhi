@@ -1,5 +1,12 @@
 <!DOCTYPE HTML>
 <html>
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction() {
+	  var popup = document.getElementById("myPopup");
+	  popup.classList.toggle("show");
+	}
+	</script>
 	<head>
 		<title>Masked Heroes Initiative Team</title>
 		<meta charset="utf-8" />
@@ -61,7 +68,9 @@
 		<a target="_blank" href="https://www.linkedin.com/in/brian-trinh-5b4069167/"><img class="linked" src="images/finance_brian_trinh_2.png" width="15%" alt="" /></a>
 		<a target="_blank" href="https://www.linkedin.com/in/brian-trinh-5b4069167/"><img class="linked" src="images/finance_kenton_trinh_2.png" width="15%" alt="" /></a>
 		<a target="_blank" href="https://www.linkedin.com/in/brian-trinh-5b4069167/"><img class="linked" src="images/finance_jae_jeon_2.png" width="15%" alt="" /></a>
-		<section id="brendan_text"></section>
+		<div class="popup" onmouseover="myFunction()">Click me to toggle the popup!
+  			<span class="popuptext" id="myPopup">A Simple Popup!</span>
+		</div>
 	</section>
 	</br></br>
 	<section id="socmedia">
