@@ -17,7 +17,18 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		
 		<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v8.0" nonce="18svkQLz"></script>
+		<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v8.0" nonce="18svkQLz">
+			$("#slideshow > div:gt(0)").hide();
+
+			setInterval(function() {
+			  $('#slideshow > div:first')
+			    .fadeOut(1000)
+			    .next()
+			    .fadeIn(1000)
+			    .end()
+			    .appendTo('#slideshow');
+			}, 3000);
+		</script>
 	</head>
 	<body class="landing">
 
@@ -70,6 +81,17 @@
 					<p>More on our mission and people involved</p>
 					<section>
 			</header>
+			<div id="slideshow">
+				<div>
+			     		<img src="http://farm6.static.flickr.com/5224/5658667829_2bb7d42a9c_m.jpg">
+			   	</div>
+			   	<div>
+			     		<img src="http://farm6.static.flickr.com/5230/5638093881_a791e4f819_m.jpg">
+			   	</div>
+		   		<div>
+			     		Pretty cool eh? This slide is proof the content can be anything.
+			   	</div>
+			</div>	
 			<h2>Mission</h2>
 			<p>
 					The Masked Heroes Initiative (MHI) is a nonprofit charity based in Orange County, California. Many of us graduated from Valencia High School (Placentia, California) and are current college students from several universities across California, such as USC, UCLA, UC Berkeley, CSUF, Cal Poly Pomona, and more. We collect donations that are used to order masks and other personal protective equipment (PPE) to send to hospitals and healthcare centers. As more COVID-19 cases occur each day, these medical centers see increased shortages of the supplies they need to treat patients as well as protect themselves. <br><br>
