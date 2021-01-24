@@ -3427,8 +3427,8 @@ a {
 #slideshow {
   margin: 80px auto;
   position: relative;
-  width: 740px;
-  height: 500px;
+  width: 800px;
+  height: 550px;
   padding: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
