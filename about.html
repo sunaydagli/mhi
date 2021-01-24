@@ -19,16 +19,18 @@
 		<div id="fb-root"></div>
 		<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v8.0" nonce="18svkQLz"></script>
 		<script>
-			$("#slideshow > div:gt(0)").hide();
+			$(document).ready(function(){
+				$("#slideshow > div:gt(0)").hide();
 
-			setInterval(function() {
-			  $('#slideshow > div:first')
-			    .fadeOut(1000)
-			    .next()
-			    .fadeIn(1000)
-			    .end()
-			    .appendTo('#slideshow');
-			}, 3000);
+				setInterval(function() {
+				  $('#slideshow > div:first')
+				    .fadeOut(1000)
+				    .next()
+				    .fadeIn(1000)
+				    .end()
+				    .appendTo('#slideshow');
+				}, 3000);
+			});
 		</script>
 	</head>
 	<body class="landing">
