@@ -3457,6 +3457,7 @@ a {
 	background-color: #777;
 	color: white;
 	cursor: pointer;
+	width: 75%;
 }
   
 .active, .collapsible:hover {
