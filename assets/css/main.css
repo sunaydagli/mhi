@@ -3457,7 +3457,10 @@ a {
 	background-color: #777;
 	color: white;
 	cursor: pointer;
+	font-size: 20px;
 	text-align: center;
+	border-style: solid;
+  	border-color: white;
 }
   
 .active, .collapsible:hover {
