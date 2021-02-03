@@ -37,11 +37,11 @@
 			//collapsible donations table
 			
 			function showregion(region) {
-				if (document.getElementById(region).style.display == "none") {
-					document.getElementById(person).style.display = "block";
+				if (region.style.display == "none") {
+					region.style.display = "block";
 				}
 				else {
-					document.getElementById(person).style.display = "none";
+					region.style.display = "none";
 				}
 			}
 		</script>
@@ -405,7 +405,7 @@
 						</tbody>
 					</table>
 				</div>
-				</br>
+				
 				<div class="collapsible" onclick="showregion('venturacounty')">Ventura County, California</div>
 				<div id="venturacounty" style="display: none">
 					<table>
@@ -430,7 +430,7 @@
 						</tbody>
 					</table>
 				</div>
-				</br>
+				
 				<div class="collapsible" onclick="showregion('lacounty')">Los Angeles County, California</div>
 				<div id="lacounty" style="display: none">
 					<table>
@@ -465,7 +465,7 @@
 						</tbody>
 					</table>
 				</div>
-				</br>
+				
 				<div class="collapsible" onclick="showregion('neworleans')">New Orleans, Louisiana</div>
 				<div id="neworleans" style="display: none">
 					<table>
@@ -485,7 +485,7 @@
 						</tbody>
 					</table>
 				</div>
-				</br>
+				
 				<div class="collapsible" onclick="showregion('mckinney')">McKinney, Texas</div>
 				<div id="mckinney" style="display: none">
 					<table>
@@ -505,7 +505,7 @@
 						</tbody>
 					</table>
 				</div>
-				</br>
+				
 				<div class="collapsible" onclick="showregion('mexico')">Mexico</div>
 				<div id="mexico" style="display: none">
 					<table>
