@@ -36,19 +36,13 @@
 
 			//collapsible donations table
 			
-			var coll = document.getElementsByClassName("collapsible");
-			var i;
-
-			for (i = 0; i < coll.length; i++) {
-			coll[i].addEventListener("click", function() {
-				this.classList.toggle("active");
-				var collapsiblecontent = this.nextElementSibling;
-				if (collapsiblecontent.style.display === "block") {
-					collapsiblecontent.style.display = "none";
-				} else {
-					collapsiblecontent.style.display = "block";
+			function showregion(region) {
+				if (document.getElementById(region).style.display == "none") {
+					document.getElementById(person).style.display = "block";
 				}
-			});
+				else {
+					document.getElementById(person).style.display = "none";
+				}
 			}
 		</script>
 	</head>
@@ -332,8 +326,8 @@
 					</table>
 				</div>-->
 				<center>
-				<button type="button" class="collapsible">Orange County, California</button>
-				<div class="collapsiblecontent">
+				<div class="collapsible" onclick="showregion('orangecounty')">Orange County, California</div>
+				<div id="orangecounty">
 					<table>
 						<thead>
 							<tr>
@@ -412,8 +406,8 @@
 					</table>
 				</div>
 				</br>
-				<button type="button" class="collapsible">Ventura County, California</button>
-				<div class="collapsiblecontent">
+				<div class="collapsible" onclick="showregion('venturacounty')">Ventura County, California</div>
+				<div id="venturacounty">
 					<table>
 						<thead>
 							<tr>
@@ -437,8 +431,8 @@
 					</table>
 				</div>
 				</br>
-				<button type="button" class="collapsible">Los Angeles County, California</button>
-				<div class="collapsiblecontent">
+				<div class="collapsible" onclick="showregion('lacounty')">Los Angeles County, California</div>
+				<div id="lacounty">
 					<table>
 						<thead>
 							<tr>
@@ -472,8 +466,8 @@
 					</table>
 				</div>
 				</br>
-				<button type="button" class="collapsible">New Orleans, Louisiana</button>
-				<div class="collapsiblecontent">
+				<div class="collapsible" onclick="showregion('neworleans')">New Orleans, Louisiana</div>
+				<div id="neworleans">
 					<table>
 						<thead>
 							<tr>
@@ -492,8 +486,8 @@
 					</table>
 				</div>
 				</br>
-				<button type="button" class="collapsible" >McKinney, Texas</button>
-				<div class="collapsiblecontent">
+				<div class="collapsible" onclick="showregion('mckinney')">McKinney, Texas</div>
+				<div id="mckinney">
 					<table>
 						<thead>
 							<tr>
@@ -512,8 +506,8 @@
 					</table>
 				</div>
 				</br>
-				<button type="button" class="collapsible">Tijuana, Mexico</button>
-				<div class="collapsiblecontent">
+				<div class="collapsible" onclick="showregion('mexico')">Mexico</div>
+				<div id="mexico">
 					<table>
 						<thead>
 							<tr>
