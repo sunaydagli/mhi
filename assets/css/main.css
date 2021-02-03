@@ -3452,3 +3452,19 @@ a {
   right: 10px;
   bottom: 10px;
 }
+
+.collapsible {
+	background-color: #777;
+	color: white;
+	cursor: pointer;
+  }
+  
+  .active, .collapsible:hover {
+	background-color: #555;
+  }
+  
+  .collapsiblecontent {
+	display: none;
+	overflow: hidden;
+	background-color: #f1f1f1;
+  }
