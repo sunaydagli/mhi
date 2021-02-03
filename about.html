@@ -37,11 +37,12 @@
 			//collapsible donations table
 			
 			function showregion(region) {
-				if (region.style.display == "none") {
-					region.style.display = "block";
+				var x = document.getElementById(region);
+				if (x.style.display == "none") {
+					x.style.display = "block";
 				}
 				else {
-					region.style.display = "none";
+					x.style.display = "none";
 				}
 			}
 		</script>
