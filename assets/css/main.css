@@ -1656,11 +1656,11 @@
 /* Type */
 
 	.navbar{
-		font-family: "Raleway", Arial, Helvetica, sans-serif;
+		font-family: "Raleway", Arial, Helvetica, sans-serif; color: #A9ABDA;
 	}
 	body {
 		background-color: #fff;
-		color: #666;
+		color: #A9ABDA;
 	}
 
 	body, input, select, textarea {
@@ -2006,7 +2006,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #13ABC4;
+			background-color: #A9ABDA;
 			color: #ffffff !important;
 		}
 
@@ -2015,7 +2015,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #13ABC4;
+				background-color: #A9ABDA;
 			}
 
 			input[type="submit"].special:active,
@@ -2023,7 +2023,7 @@
 			input[type="button"].special:active,
 			button.special:active,
 			.button.special:active {
-				background-color: #13ABC4;
+				background-color: #A9ABDA;
 			}
 
 		@media screen and (max-width: 480px) {
@@ -2746,7 +2746,7 @@
 	}
 
 	.linked{
-		border: 7px solid #fff;
+		border: 7px solid #D0CCFE;
 		width: 150px;
 		height: 150px;
 		-webkit-border-radius: 82px;
