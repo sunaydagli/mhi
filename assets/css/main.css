@@ -22,7 +22,7 @@
 	}
 
 	.dropdown-menu li a{
-		color: #484848;
+		color: #A9ABDA;
 		font-size: 19px;
 	}
 	.dropdown-menu li a:hover{
@@ -1735,7 +1735,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #484848;
+		color: #393995;
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -2410,7 +2410,7 @@
 		}
 
 			.image.rounded img {
-				border: solid 0.5em rgba(144, 144, 144, 0.25);
+				border: solid 0.5em rgba(208, 204, 254, 0.25);
 				border-radius: 100%;
 			}
 
@@ -3128,7 +3128,7 @@ section iframe {
 	#banner {
 		padding: 16em 0 13em 0;
 		background-attachment: fixed;
-		background-image: url("images/overlay.png"), url("../../images/maskdocbackground.JPG");
+		background-image: url("images/drtrinh.png");
 		background-position: center top;
 		background-size: cover;
 		line-height: 1.75;
