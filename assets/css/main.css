@@ -22,7 +22,7 @@
 	}
 
 	.dropdown-menu li a{
-		color: #A9ABDA;
+		color: #9C9EC8;
 		font-size: 19px;
 	}
 	.dropdown-menu li a:hover{
@@ -1656,11 +1656,11 @@
 /* Type */
 
 	.navbar{
-		font-family: "Raleway", Arial, Helvetica, sans-serif; color: #A9ABDA;
+		font-family: "Raleway", Arial, Helvetica, sans-serif; color: #9C9EC8;
 	}
 	body {
 		background-color: #fff;
-		color: #A9ABDA;
+		color: #9C9EC8;
 	}
 
 	body, input, select, textarea {
@@ -2006,7 +2006,7 @@
 		input[type="button"].special,
 		button.special,
 		.button.special {
-			background-color: #A9ABDA;
+			background-color: #9C9EC8;
 			color: #ffffff !important;
 		}
 
@@ -2015,7 +2015,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #A9ABDA;
+				background-color: #9C9EC8;
 			}
 
 			input[type="submit"].special:active,
@@ -2023,7 +2023,7 @@
 			input[type="button"].special:active,
 			button.special:active,
 			.button.special:active {
-				background-color: #A9ABDA;
+				background-color: #9C9EC8;
 			}
 
 		@media screen and (max-width: 480px) {
@@ -2967,7 +2967,7 @@
 						-webkit-transition: color 0.2s ease-in-out;
 						-ms-transition: color 0.2s ease-in-out;
 						transition: color 0.2s ease-in-out;
-						color: #A9ABDA;
+						color: #9C9EC8;
 						display: inline-block;
 						text-decoration: none;
 					}
@@ -3454,7 +3454,7 @@ a {
 }
 
 .collapsible {
-	background-color: #A9ABDA;
+	background-color: #9C9EC8;
 	color: white;
 	cursor: pointer;
 	font-size: 20px;
